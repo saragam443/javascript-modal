@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <title>JS Modal</title>
+  </head>
+
+  <body>
+    <main class="h-screen grid place-items-center">
+      <div class="banner w-[90vw] py-14 rounded-lg text-center max-w-2xl">
+        <h1 class="banner-heading tracking-widest text-3xl md:text-5xl font-bold mb-12">
+          Modal Project
+        </h1>
+        <button class="bg-blue-600 px-3 py-1 text-lg font-bold capitalize rounded-md text-white tracking-wider border hover:border hover:bg-white hover:text-blue-600 hover:border-blue-600" id="btn">
+          open modal
+        </button>
+      </div>
+    </main>
+
+    <div class="modal fixed top-0 left-0 w-full h-full grid place-items-center" id="modal">
+      <div class="relative bg-white w-[90vw] max-w-2xl h-[30vh] grid place-items-center">
+        <h1 class="text-xl text-teal-900 font-bold tracking-wider capitalize">model content</h1>
+        <button class="absolute top-1 right-3 text-[orangered] text-xl hover:scale-150" id="close-btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
