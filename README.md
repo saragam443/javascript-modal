@@ -1,11 +1,13 @@
-# javascript-responsive-sidebar #
+# javascript-modal #
 
-Beginner JavaScript Project 5
+Beginner JavaScript Project 6
+
+Modal or dialog box/popup window that is displayed on top of the current page.
 
 Key JavaScript concepts implemented:
-* document.querySelector()
+* document.getElementById()
 * addEventListener("click", () => {})
-* classList.toggle()
+* classList.add()
 * classList.remove()
 
-https://saragam443.github.io/javascript-responsive-sidebar/
+https://saragam443.github.io/javascript-modal/
